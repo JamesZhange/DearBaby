@@ -1,0 +1,834 @@
+
+/* Class = "UILabel"; text = "500"; ObjectID = "03a-J6-c2s"; */
+"03a-J6-c2s.text" = "500";
+
+/* Class = "UILabel"; text = "PM2.5"; ObjectID = "09R-gr-rN5"; */
+"09R-gr-rN5.text" = "PM2.5";
+
+/* Class = "UITextField"; placeholder = "修改昵称"; ObjectID = "1L4-v7-i9p"; */
+"1L4-v7-i9p.placeholder" = "修改昵称";
+
+/* Class = "UILabel"; text = "订单号："; ObjectID = "1oZ-hz-67O"; */
+"1oZ-hz-67O.text" = "订单号：";
+
+/* Class = "UILabel"; text = "充值成功！"; ObjectID = "1pE-8h-k9b"; */
+"1pE-8h-k9b.text" = "充值成功！";
+
+/* Class = "UILabel"; text = "www.fairair.cn"; ObjectID = "1pL-py-O06"; */
+"1pL-py-O06.text" = "www.fairair.cn";
+
+/* Class = "UILabel"; text = "阴"; ObjectID = "1qU-nD-PUJ"; */
+"1qU-nD-PUJ.text" = "阴";
+
+/* Class = "UILabel"; text = "mb"; ObjectID = "1yi-BV-DlG"; */
+"1yi-BV-DlG.text" = "mb";
+
+/* Class = "UILabel"; text = "设 置"; ObjectID = "22S-et-qUU"; */
+"22S-et-qUU.text" = "设 置";
+
+/* Class = "UILabel"; text = "用户反馈"; ObjectID = "25i-n8-5CO"; */
+"25i-n8-5CO.text" = "用户反馈";
+
+/* Class = "UILabel"; text = "登录"; ObjectID = "2L0-Ve-trB"; */
+"2L0-Ve-trB.text" = "登录";
+
+/* Class = "UILabel"; text = "支付结果"; ObjectID = "2mp-Aj-TrC"; */
+"2mp-Aj-TrC.text" = "支付结果";
+
+/* Class = "UILabel"; text = "西北风"; ObjectID = "2xf-uy-IFr"; */
+"2xf-uy-IFr.text" = "西北风";
+
+/* Class = "UILabel"; text = "好评"; ObjectID = "36Y-hl-MZb"; */
+"36Y-hl-MZb.text" = "好评";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "3AX-kj-NnW"; */
+"3AX-kj-NnW.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "当前网络连接"; ObjectID = "3Ct-zx-rrO"; */
+"3Ct-zx-rrO.text" = "当前网络连接";
+
+/* Class = "UILabel"; text = "操作说明"; ObjectID = "3DX-uV-IUB"; */
+"3DX-uV-IUB.text" = "操作说明";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "3Du-yH-HhN"; */
+"3Du-yH-HhN.normalTitle" = "取消";
+
+/* Class = "UITextField"; placeholder = " 账号"; ObjectID = "3tX-Sr-5MH"; */
+"3tX-Sr-5MH.placeholder" = " 账号";
+
+/* Class = "UILabel"; text = "软件许可及服务协议"; ObjectID = "47S-hP-fVa"; */
+"47S-hP-fVa.text" = "软件许可及服务协议";
+
+/* Class = "UILabel"; text = "device SN"; ObjectID = "48e-So-Pu8"; */
+"48e-So-Pu8.text" = "device SN";
+
+/* Class = "UILabel"; text = "手动输入序列号"; ObjectID = "4D3-7J-4UW"; */
+"4D3-7J-4UW.text" = "手动输入序列号";
+
+/* Class = "UILabel"; text = "最高 / 最低温度"; ObjectID = "4tc-JX-rfw"; */
+"4tc-JX-rfw.text" = "最高 / 最低温度";
+
+/* Class = "UILabel"; text = "2.3"; ObjectID = "5Xr-eP-IHv"; */
+"5Xr-eP-IHv.text" = "2.3";
+
+/* Class = "UILabel"; text = "C0"; ObjectID = "5b8-Vc-ITo"; */
+"5b8-Vc-ITo.text" = "C0";
+
+/* Class = "UILabel"; text = "18%"; ObjectID = "5mj-WE-Bg4"; */
+"5mj-WE-Bg4.text" = "18%";
+
+/* Class = "UILabel"; text = "反馈"; ObjectID = "5q2-Ym-Cah"; */
+"5q2-Ym-Cah.text" = "反馈";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "62N-au-fYp"; */
+"62N-au-fYp.text" = "2";
+
+/* Class = "UILabel"; text = "我的钱包"; ObjectID = "6Tm-pe-Lvp"; */
+"6Tm-pe-Lvp.text" = "我的钱包";
+
+/* Class = "UILabel"; text = "WiFi设置"; ObjectID = "6zT-OY-nbS"; */
+"6zT-OY-nbS.text" = "WiFi设置";
+
+/* Class = "UILabel"; text = "设备序列号"; ObjectID = "7Dm-uX-sEx"; */
+"7Dm-uX-sEx.text" = "设备序列号";
+
+/* Class = "UILabel"; text = "信息"; ObjectID = "7Fm-wL-K4C"; */
+"7Fm-wL-K4C.text" = "信息";
+
+/* Class = "UILabel"; text = "点一点试试看"; ObjectID = "7Ls-3C-pCf"; */
+"7Ls-3C-pCf.text" = "点一点试试看";
+
+/* Class = "UIViewController"; title = "扫描二维码"; ObjectID = "7Pc-dJ-94x"; */
+"7Pc-dJ-94x.title" = "扫描二维码";
+
+/* Class = "UILabel"; text = "支付金额："; ObjectID = "7ca-Lv-Ym5"; */
+"7ca-Lv-Ym5.text" = "支付金额：";
+
+/* Class = "UILabel"; text = "天气"; ObjectID = "8Hd-BW-8Wv"; */
+"8Hd-BW-8Wv.text" = "天气";
+
+/* Class = "UITextField"; placeholder = "序列号"; ObjectID = "8IJ-b9-6xg"; */
+"8IJ-b9-6xg.placeholder" = "序列号";
+
+/* Class = "UILabel"; text = "帮助中心"; ObjectID = "8Il-jN-rda"; */
+"8Il-jN-rda.text" = "帮助中心";
+
+/* Class = "UILabel"; text = "二维码扫描"; ObjectID = "8Xk-82-hG9"; */
+"8Xk-82-hG9.text" = "二维码扫描";
+
+/* Class = "UILabel"; text = "点击自动搜索身边的朗空设备"; ObjectID = "8j6-o1-qFn"; */
+"8j6-o1-qFn.text" = "点击自动搜索身边的朗空设备";
+
+/* Class = "UILabel"; text = "NO2"; ObjectID = "8nS-1G-lZO"; */
+"8nS-1G-lZO.text" = "NO2";
+
+/* Class = "UILabel"; text = "修改连接密码"; ObjectID = "8wC-uv-A0z"; */
+"8wC-uv-A0z.text" = "修改连接密码";
+
+/* Class = "UILabel"; text = "关于"; ObjectID = "90V-Ei-yOI"; */
+"90V-Ei-yOI.text" = "关于";
+
+/* Class = "UITextField"; placeholder = "自定义名称"; ObjectID = "918-ks-38W"; */
+"918-ks-38W.placeholder" = "自定义名称";
+
+/* Class = "UILabel"; text = "￥88.50"; ObjectID = "9Bg-1k-pnA"; */
+"9Bg-1k-pnA.text" = "￥88.50";
+
+/* Class = "UITextField"; placeholder = "        请输入密码"; ObjectID = "9GR-7c-Dbi"; */
+"9GR-7c-Dbi.placeholder" = "        请输入密码";
+
+/* Class = "UILabel"; text = "朗空空气加湿器"; ObjectID = "9Hd-OM-A4Y"; */
+"9Hd-OM-A4Y.text" = "朗空空气加湿器";
+
+/* Class = "UILabel"; text = "没有搜索到设备"; ObjectID = "9UE-Mn-G5m"; */
+"9UE-Mn-G5m.text" = "没有搜索到设备";
+
+/* Class = "UILabel"; text = "我的"; ObjectID = "9Ub-AQ-JiX"; */
+"9Ub-AQ-JiX.text" = "我的";
+
+/* Class = "UILabel"; text = "自定义名称"; ObjectID = "9Wn-zN-aR3"; */
+"9Wn-zN-aR3.text" = "自定义名称";
+
+/* Class = "UILabel"; text = "2016/2/3"; ObjectID = "9Zc-kD-tPN"; */
+"9Zc-kD-tPN.text" = "2016/2/3";
+
+/* Class = "UILabel"; text = "12°"; ObjectID = "9he-mm-9fY"; */
+"9he-mm-9fY.text" = "12°";
+
+/* Class = "UILabel"; text = "没有密码"; ObjectID = "9tN-7m-MpS"; */
+"9tN-7m-MpS.text" = "没有密码";
+
+/* Class = "UILabel"; text = "2000元"; ObjectID = "ANz-h0-SeW"; */
+"ANz-h0-SeW.text" = "2000元";
+
+/* Class = "UIButton"; normalTitle = "绑定设备"; ObjectID = "AeO-6F-Qh5"; */
+"AeO-6F-Qh5.normalTitle" = "绑定设备";
+
+/* Class = "UILabel"; text = "Local city"; ObjectID = "AmR-Qw-8Gw"; */
+"AmR-Qw-8Gw.text" = "Local city";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "B25-AJ-K7V"; */
+"B25-AJ-K7V.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "BAg-cQ-Jqw"; */
+"BAg-cQ-Jqw.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "km"; ObjectID = "BLg-2S-J7g"; */
+"BLg-2S-J7g.text" = "km";
+
+/* Class = "UILabel"; text = "98"; ObjectID = "BiK-0Y-Jmn"; */
+"BiK-0Y-Jmn.text" = "98";
+
+/* Class = "UILabel"; text = "雾霾实验"; ObjectID = "Blg-Dw-nAA"; */
+"Blg-Dw-nAA.text" = "雾霾实验";
+
+/* Class = "UILabel"; text = "手动"; ObjectID = "Cyr-90-Eba"; */
+"Cyr-90-Eba.text" = "手动";
+
+/* Class = "UILabel"; text = "￥88.50"; ObjectID = "DH0-Xu-Wv9"; */
+"DH0-Xu-Wv9.text" = "￥88.50";
+
+/* Class = "UILabel"; text = "xxxxxxxx"; ObjectID = "DSU-eX-v8J"; */
+"DSU-eX-v8J.text" = "xxxxxxxx";
+
+/* Class = "UILabel"; text = "版本: 1.0.3"; ObjectID = "DfF-qg-fpO"; */
+"DfF-qg-fpO.text" = "版本: 1.0.3";
+
+/* Class = "UILabel"; text = "二氧化硫"; ObjectID = "Dfs-AT-iEg"; */
+"Dfs-AT-iEg.text" = "二氧化硫";
+
+/* Class = "UILabel"; text = "自动"; ObjectID = "E4L-GY-ItQ"; */
+"E4L-GY-ItQ.text" = "自动";
+
+/* Class = "UILabel"; text = "设备序列号"; ObjectID = "Ebq-H2-oTi"; */
+"Ebq-H2-oTi.text" = "设备序列号";
+
+/* Class = "UILabel"; text = "所在城市"; ObjectID = "EmO-bJ-vFH"; */
+"EmO-bJ-vFH.text" = "所在城市";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "Etj-Ru-FrO"; */
+"Etj-Ru-FrO.text" = "State";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "EzF-u8-Ke9"; */
+"EzF-u8-Ke9.text" = "密码";
+
+/* Class = "UILabel"; text = "空气良好"; ObjectID = "Fan-Y9-yEZ"; */
+"Fan-Y9-yEZ.text" = "空气良好";
+
+/* Class = "UILabel"; text = "添加城市查看实时空指"; ObjectID = "Fgp-tx-3TN"; */
+"Fgp-tx-3TN.text" = "添加城市查看实时空指";
+
+/* Class = "UIButton"; normalTitle = "立刻充值"; ObjectID = "Flb-Oa-f1Y"; */
+"Flb-Oa-f1Y.normalTitle" = "立刻充值";
+
+/* Class = "UIButton"; normalTitle = "确  定"; ObjectID = "FmI-zH-fDI"; */
+"FmI-zH-fDI.normalTitle" = "确  定";
+
+/* Class = "UIButton"; normalTitle = "保存修改"; ObjectID = "GI9-LR-N6n"; */
+"GI9-LR-N6n.normalTitle" = "保存修改";
+
+/* Class = "UILabel"; text = "雾霾实验"; ObjectID = "GL6-yO-ZRN"; */
+"GL6-yO-ZRN.text" = "雾霾实验";
+
+/* Class = "UITabBarItem"; title = "商城"; ObjectID = "GPg-NH-QbC"; */
+"GPg-NH-QbC.title" = "商城";
+
+/* Class = "UILabel"; text = "睡眠"; ObjectID = "GQn-dI-lsf"; */
+"GQn-dI-lsf.text" = "睡眠";
+
+/* Class = "UILabel"; text = "今天"; ObjectID = "GYi-vs-fiP"; */
+"GYi-vs-fiP.text" = "今天";
+
+/* Class = "UILabel"; text = "设备详情"; ObjectID = "Gmp-9V-9XK"; */
+"Gmp-9V-9XK.text" = "设备详情";
+
+/* Class = "UILabel"; text = "气压"; ObjectID = "GxX-PM-01A"; */
+"GxX-PM-01A.text" = "气压";
+
+/* Class = "UILabel"; text = "支付订单"; ObjectID = "H0E-Wz-Ad1"; */
+"H0E-Wz-Ad1.text" = "支付订单";
+
+/* Class = "UILabel"; text = "AQI"; ObjectID = "H0O-vB-Vcg"; */
+"H0O-vB-Vcg.text" = "AQI";
+
+/* Class = "UISearchBar"; placeholder = "城市名 或 拼音"; ObjectID = "HAQ-u6-e5e"; */
+"HAQ-u6-e5e.placeholder" = "城市名 或 拼音";
+
+/* Class = "UILabel"; text = "city"; ObjectID = "HEK-1X-7hf"; */
+"HEK-1X-7hf.text" = "city";
+
+/* Class = "UILabel"; text = "没有密码"; ObjectID = "HQh-fI-Ifd"; */
+"HQh-fI-Ifd.text" = "没有密码";
+
+/* Class = "UILabel"; text = "99%"; ObjectID = "HbK-ag-UbC"; */
+"HbK-ag-UbC.text" = "99%";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "Hdd-ya-u2h"; */
+"Hdd-ya-u2h.text" = "账号";
+
+/* Class = "UILabel"; text = "软件许可及服务协议"; ObjectID = "Hxn-Xj-2bG"; */
+"Hxn-Xj-2bG.text" = "软件许可及服务协议";
+
+/* Class = "UILabel"; text = "15:30"; ObjectID = "I1e-Qk-HKW"; */
+"I1e-Qk-HKW.text" = "15:30";
+
+/* Class = "UIButton"; normalTitle = "注 册"; ObjectID = "I8n-bx-fOr"; */
+"I8n-bx-fOr.normalTitle" = "注 册";
+
+/* Class = "UILabel"; text = "当前室内空气质量"; ObjectID = "IVI-19-eC5"; */
+"IVI-19-eC5.text" = "当前室内空气质量";
+
+/* Class = "UILabel"; text = "隐私政策"; ObjectID = "IfD-ie-eHt"; */
+"IfD-ie-eHt.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "关注我们"; ObjectID = "Ihm-ER-lv1"; */
+"Ihm-ER-lv1.text" = "关注我们";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "Iks-Co-x6t"; */
+"Iks-Co-x6t.text" = "设置";
+
+/* Class = "UILabel"; text = "500元"; ObjectID = "IlI-dD-pCt"; */
+"IlI-dD-pCt.text" = "500元";
+
+/* Class = "UILabel"; text = "优质"; ObjectID = "In1-VD-tZF"; */
+"In1-VD-tZF.text" = "优质";
+
+/* Class = "UITextField"; placeholder = "        邮箱/手机/用户名"; ObjectID = "J7i-51-N6R"; */
+"J7i-51-N6R.placeholder" = "        邮箱/手机/用户名";
+
+/* Class = "UIButton"; normalTitle = "关闭"; ObjectID = "Jc5-2c-7g3"; */
+"Jc5-2c-7g3.normalTitle" = "关闭";
+
+/* Class = "UILabel"; text = "净化器"; ObjectID = "Jkv-aG-LJJ"; */
+"Jkv-aG-LJJ.text" = "净化器";
+
+/* Class = "UILabel"; text = "999"; ObjectID = "Jug-dV-rRu"; */
+"Jug-dV-rRu.text" = "999";
+
+/* Class = "UILabel"; text = "SO2"; ObjectID = "K2l-Rp-gZ6"; */
+"K2l-Rp-gZ6.text" = "SO2";
+
+/* Class = "UILabel"; text = "手动输入序列号"; ObjectID = "K6s-np-Kke"; */
+"K6s-np-Kke.text" = "手动输入序列号";
+
+/* Class = "UILabel"; text = "20°"; ObjectID = "KzH-tD-skL"; */
+"KzH-tD-skL.text" = "20°";
+
+/* Class = "UILabel"; text = "朗空设备"; ObjectID = "LC9-4j-qwT"; */
+"LC9-4j-qwT.text" = "朗空设备";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "LON-ZG-PkL"; */
+"LON-ZG-PkL.text" = "昵称";
+
+/* Class = "UILabel"; text = "自定义名称"; ObjectID = "LXh-vI-E2O"; */
+"LXh-vI-E2O.text" = "自定义名称";
+
+/* Class = "UIButton"; normalTitle = "退 出 登 录"; ObjectID = "LYe-LZ-4J8"; */
+"LYe-LZ-4J8.normalTitle" = "退 出 登 录";
+
+/* Class = "UILabel"; text = "操作说明"; ObjectID = "Liz-1I-Gf8"; */
+"Liz-1I-Gf8.text" = "操作说明";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "Lo0-1c-6Hm"; */
+"Lo0-1c-6Hm.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "余额"; ObjectID = "LuA-49-cym"; */
+"LuA-49-cym.text" = "余额";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "MU6-hI-azG"; */
+"MU6-hI-azG.text" = "密码";
+
+/* Class = "UILabel"; text = "请确认周围有开启的朗空设备并稍后再试"; ObjectID = "MVD-r5-q0i"; */
+"MVD-r5-q0i.text" = "请确认周围有开启的朗空设备并稍后再试";
+
+/* Class = "UILabel"; text = "设备注册"; ObjectID = "MaA-hh-bCp"; */
+"MaA-hh-bCp.text" = "设备注册";
+
+/* Class = "UILabel"; text = "正在为您添加，请稍候"; ObjectID = "Mar-GP-bGG"; */
+"Mar-GP-bGG.text" = "正在为您添加，请稍候";
+
+/* Class = "UILabel"; text = "周四"; ObjectID = "N0c-f3-WT7"; */
+"N0c-f3-WT7.text" = "周四";
+
+/* Class = "UILabel"; text = "AQI"; ObjectID = "NGe-v5-eI6"; */
+"NGe-v5-eI6.text" = "AQI";
+
+/* Class = "UILabel"; text = "周三"; ObjectID = "NOd-1G-Klh"; */
+"NOd-1G-Klh.text" = "周三";
+
+/* Class = "UILabel"; text = "12°"; ObjectID = "OdE-sT-fF9"; */
+"OdE-sT-fF9.text" = "12°";
+
+/* Class = "UILabel"; text = "反馈"; ObjectID = "OjD-S4-CB7"; */
+"OjD-S4-CB7.text" = "反馈";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "OpR-ar-zJP"; */
+"OpR-ar-zJP.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "SSID Name"; ObjectID = "Otl-EC-cbw"; */
+"Otl-EC-cbw.text" = "SSID Name";
+
+/* Class = "UIButton"; normalTitle = "×"; ObjectID = "OvE-cw-GFy"; */
+"OvE-cw-GFy.normalTitle" = "×";
+
+/* Class = "UILabel"; text = "关于"; ObjectID = "P2k-IO-nJ4"; */
+"P2k-IO-nJ4.text" = "关于";
+
+/* Class = "UILabel"; text = "扫描设备机身二维码添加设备"; ObjectID = "P4h-1Z-bWK"; */
+"P4h-1Z-bWK.text" = "扫描设备机身二维码添加设备";
+
+/* Class = "UILabel"; text = "1000元"; ObjectID = "POI-Y9-8aL"; */
+"POI-Y9-8aL.text" = "1000元";
+
+/* Class = "UILabel"; text = "设置连接密码"; ObjectID = "PS5-ul-igB"; */
+"PS5-ul-igB.text" = "设置连接密码";
+
+/* Class = "UILabel"; text = "媒体报道"; ObjectID = "Pga-KT-sga"; */
+"Pga-KT-sga.text" = "媒体报道";
+
+/* Class = "UITextField"; placeholder = "您的联系方式（可选）"; ObjectID = "PhV-eZ-gwQ"; */
+"PhV-eZ-gwQ.placeholder" = "您的联系方式（可选）";
+
+/* Class = "UILabel"; text = "风速"; ObjectID = "Q15-mq-FyZ"; */
+"Q15-mq-FyZ.text" = "风速";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "QGl-mc-6T2"; */
+"QGl-mc-6T2.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "12°"; ObjectID = "QQT-qJ-zeS"; */
+"QQT-qJ-zeS.text" = "12°";
+
+/* Class = "UILabel"; text = "22°"; ObjectID = "QZo-LI-uCd"; */
+"QZo-LI-uCd.text" = "22°";
+
+/* Class = "UILabel"; text = "xxxxxxxx"; ObjectID = "R4j-cf-ylf"; */
+"R4j-cf-ylf.text" = "xxxxxxxx";
+
+/* Class = "UILabel"; text = "12°"; ObjectID = "Rix-wm-8Lo"; */
+"Rix-wm-8Lo.text" = "12°";
+
+/* Class = "UILabel"; text = "-正在连接-"; ObjectID = "SAN-FD-my3"; */
+"SAN-FD-my3.text" = "-正在连接-";
+
+/* Class = "UILabel"; text = "18%"; ObjectID = "SQL-lj-YCX"; */
+"SQL-lj-YCX.text" = "18%";
+
+/* Class = "UITextView"; text = "test debug out put text"; ObjectID = "SmC-3W-C27"; */
+"SmC-3W-C27.text" = "test debug out put text";
+
+/* Class = "UILabel"; text = "20°"; ObjectID = "T4d-u1-srK"; */
+"T4d-u1-srK.text" = "20°";
+
+/* Class = "UILabel"; text = "北京市均值"; ObjectID = "Tj3-yx-FDj"; */
+"Tj3-yx-FDj.text" = "北京市均值";
+
+/* Class = "UILabel"; text = "清除缓存"; ObjectID = "TqO-D2-ao5"; */
+"TqO-D2-ao5.text" = "清除缓存";
+
+/* Class = "UILabel"; text = "微信支付"; ObjectID = "UEN-BA-QUN"; */
+"UEN-BA-QUN.text" = "微信支付";
+
+/* Class = "UILabel"; text = "选择支付方式"; ObjectID = "UjW-Xb-4lM"; */
+"UjW-Xb-4lM.text" = "选择支付方式";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "Uwa-Xc-a4D"; */
+"Uwa-Xc-a4D.text" = "30";
+
+/* Class = "UILabel"; text = "PM10"; ObjectID = "V0D-Qb-cPm"; */
+"V0D-Qb-cPm.text" = "PM10";
+
+/* Class = "UILabel"; text = "个人信息"; ObjectID = "VEG-vY-c7V"; */
+"VEG-vY-c7V.text" = "个人信息";
+
+/* Class = "UILabel"; text = "支持微信支付的用户"; ObjectID = "VYU-gR-NjW"; */
+"VYU-gR-NjW.text" = "支持微信支付的用户";
+
+/* Class = "UILabel"; text = "支付宝支付"; ObjectID = "VYb-ms-K8t"; */
+"VYb-ms-K8t.text" = "支付宝支付";
+
+/* Class = "UILabel"; text = "0.0M"; ObjectID = "VZR-5R-Ghm"; */
+"VZR-5R-Ghm.text" = "0.0M";
+
+/* Class = "UILabel"; text = "device SN"; ObjectID = "Vej-3l-5b1"; */
+"Vej-3l-5b1.text" = "device SN";
+
+/* Class = "UILabel"; text = "状态信息"; ObjectID = "WHb-79-u2D"; */
+"WHb-79-u2D.text" = "状态信息";
+
+/* Class = "UILabel"; text = "WiFi 设置"; ObjectID = "WZr-2u-2fE"; */
+"WZr-2u-2fE.text" = "WiFi 设置";
+
+/* Class = "UILabel"; text = "42"; ObjectID = "Wtv-cA-AnQ"; */
+"Wtv-cA-AnQ.text" = "42";
+
+/* Class = "UILabel"; text = "PM10"; ObjectID = "WzH-u0-di3"; */
+"WzH-u0-di3.text" = "PM10";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "XG8-sb-np8"; */
+"XG8-sb-np8.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "首要污染物"; ObjectID = "XGl-jE-yf0"; */
+"XGl-jE-yf0.text" = "首要污染物";
+
+/* Class = "UILabel"; text = "朗空合作登录账号"; ObjectID = "Xqv-S8-ACG"; */
+"Xqv-S8-ACG.text" = "朗空合作登录账号";
+
+/* Class = "UILabel"; text = "周五"; ObjectID = "Y3Y-j1-GbA"; */
+"Y3Y-j1-GbA.text" = "周五";
+
+/* Class = "UILabel"; text = "请扫描机身背后二维码"; ObjectID = "Yaw-2L-PNO"; */
+"Yaw-2L-PNO.text" = "请扫描机身背后二维码";
+
+/* Class = "UILabel"; text = "朗空空气净化器"; ObjectID = "Ybp-1J-k6T"; */
+"Ybp-1J-k6T.text" = "朗空空气净化器";
+
+/* Class = "UILabel"; text = "城市天气详情"; ObjectID = "Ykq-Hb-yR5"; */
+"Ykq-Hb-yR5.text" = "城市天气详情";
+
+/* Class = "UIButton"; normalTitle = "清空"; ObjectID = "Ype-cG-ydp"; */
+"Ype-cG-ydp.normalTitle" = "清空";
+
+/* Class = "UITextField"; placeholder = "输入连接密码"; ObjectID = "Z23-6Q-LcY"; */
+"Z23-6Q-LcY.placeholder" = "输入连接密码";
+
+/* Class = "UILabel"; text = "蓝牙密码设置"; ObjectID = "Z2z-fN-Y4b"; */
+"Z2z-fN-Y4b.text" = "蓝牙密码设置";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "ZTq-Qj-9US"; */
+"ZTq-Qj-9US.text" = "账号";
+
+/* Class = "UILabel"; text = "童锁"; ObjectID = "ZVE-sX-9RK"; */
+"ZVE-sX-9RK.text" = "童锁";
+
+/* Class = "UITabBarItem"; title = "设备"; ObjectID = "a9D-Cn-SDJ"; */
+"a9D-Cn-SDJ.title" = "设备";
+
+/* Class = "UILabel"; text = "正在连接"; ObjectID = "aeX-6z-phU"; */
+"aeX-6z-phU.text" = "正在连接";
+
+/* Class = "UILabel"; text = "充值"; ObjectID = "al5-kH-kBQ"; */
+"al5-kH-kBQ.text" = "充值";
+
+/* Class = "UIButton"; normalTitle = "登 录"; ObjectID = "are-Li-Tff"; */
+"are-Li-Tff.normalTitle" = "登 录";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "bIm-Ho-u3n"; */
+"bIm-Ho-u3n.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "98"; ObjectID = "bZA-2P-SGF"; */
+"bZA-2P-SGF.text" = "98";
+
+/* Class = "UILabel"; text = "30"; ObjectID = "bay-Ff-9lK"; */
+"bay-Ff-9lK.text" = "30";
+
+/* Class = "UILabel"; text = "空气质量指数：129"; ObjectID = "bkf-Ft-MEg"; */
+"bkf-Ft-MEg.text" = "空气质量指数：129";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "bqH-ic-EGO"; */
+"bqH-ic-EGO.text" = "注册";
+
+/* Class = "UITextField"; placeholder = "输入自定义名称"; ObjectID = "bwn-rd-w0x"; */
+"bwn-rd-w0x.placeholder" = "输入自定义名称";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "bx8-3L-WoC"; */
+"bx8-3L-WoC.title" = "我的";
+
+/* Class = "UILabel"; text = "周二"; ObjectID = "c3U-zw-OKG"; */
+"c3U-zw-OKG.text" = "周二";
+
+/* Class = "UILabel"; text = "￥88.50"; ObjectID = "cAL-Lz-RPa"; */
+"cAL-Lz-RPa.text" = "￥88.50";
+
+/* Class = "UILabel"; text = "净化器"; ObjectID = "cBS-EV-K1b"; */
+"cBS-EV-K1b.text" = "净化器";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "cUN-Ji-wqJ"; */
+"cUN-Ji-wqJ.text" = "设置";
+
+/* Class = "UILabel"; text = "能见度"; ObjectID = "cYh-J1-coX"; */
+"cYh-J1-coX.text" = "能见度";
+
+/* Class = "UILabel"; text = "AQI |"; ObjectID = "cfU-mx-zT4"; */
+"cfU-mx-zT4.text" = "AQI |";
+
+/* Class = "UILabel"; text = "选择城市"; ObjectID = "crI-EI-cX1"; */
+"crI-EI-cX1.text" = "选择城市";
+
+/* Class = "UILabel"; text = "朗空设备"; ObjectID = "dbu-2Z-94f"; */
+"dbu-2Z-94f.text" = "朗空设备";
+
+/* Class = "UILabel"; text = "蓝牙密码设置"; ObjectID = "dfa-dm-7fV"; */
+"dfa-dm-7fV.text" = "蓝牙密码设置";
+
+/* Class = "UITextField"; placeholder = "        请输入账号"; ObjectID = "dkB-Ps-Zqb"; */
+"dkB-Ps-Zqb.placeholder" = "        请输入账号";
+
+/* Class = "UILabel"; text = "2016/3/22 12:30"; ObjectID = "dkz-bW-cyn"; */
+"dkz-bW-cyn.text" = "2016/3/22 12:30";
+
+/* Class = "UITextField"; placeholder = "        建议组合数字/字母/符号"; ObjectID = "emr-E3-CKO"; */
+"emr-E3-CKO.placeholder" = "        建议组合数字/字母/符号";
+
+/* Class = "UILabel"; text = "媒体报道"; ObjectID = "fZJ-5g-pBd"; */
+"fZJ-5g-pBd.text" = "媒体报道";
+
+/* Class = "UILabel"; text = "999"; ObjectID = "foT-oh-2EN"; */
+"foT-oh-2EN.text" = "999";
+
+/* Class = "UILabel"; text = "THI |"; ObjectID = "g7e-e8-RhO"; */
+"g7e-e8-RhO.text" = "THI |";
+
+/* Class = "UILabel"; text = "空气质量指数（AQI）："; ObjectID = "g9C-mS-aya"; */
+"g9C-mS-aya.text" = "空气质量指数（AQI）：";
+
+/* Class = "UILabel"; text = "隐私政策"; ObjectID = "gDs-0F-hoy"; */
+"gDs-0F-hoy.text" = "隐私政策";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "gEf-V9-imU"; */
+"gEf-V9-imU.text" = "--";
+
+/* Class = "UILabel"; text = "连接密码设置"; ObjectID = "gjK-5r-6A1"; */
+"gjK-5r-6A1.text" = "连接密码设置";
+
+/* Class = "UILabel"; text = "订单详情："; ObjectID = "gsj-lW-qw0"; */
+"gsj-lW-qw0.text" = "订单详情：";
+
+/* Class = "UILabel"; text = "立即连接"; ObjectID = "h1j-AE-K2c"; */
+"h1j-AE-K2c.text" = "立即连接";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "h7w-G9-4Kn"; */
+"h7w-G9-4Kn.text" = "8";
+
+/* Class = "UILabel"; text = "5000元"; ObjectID = "hDR-t5-6EY"; */
+"hDR-t5-6EY.text" = "5000元";
+
+/* Class = "UITextField"; placeholder = "修改密码"; ObjectID = "hEn-ET-cXZ"; */
+"hEn-ET-cXZ.placeholder" = "修改密码";
+
+/* Class = "UILabel"; text = "12°"; ObjectID = "hIH-5T-PKZ"; */
+"hIH-5T-PKZ.text" = "12°";
+
+/* Class = "UILabel"; text = "用户反馈"; ObjectID = "hVe-MW-yO6"; */
+"hVe-MW-yO6.text" = "用户反馈";
+
+/* Class = "UILabel"; text = "我的设备"; ObjectID = "hbZ-uq-C2U"; */
+"hbZ-uq-C2U.text" = "我的设备";
+
+/* Class = "UILabel"; text = "立即支付"; ObjectID = "hey-Av-RHT"; */
+"hey-Av-RHT.text" = "立即支付";
+
+/* Class = "UILabel"; text = "个人信息"; ObjectID = "hqC-Yg-ukF"; */
+"hqC-Yg-ukF.text" = "个人信息";
+
+/* Class = "UILabel"; text = "100元"; ObjectID = "i1F-ni-dxJ"; */
+"i1F-ni-dxJ.text" = "100元";
+
+/* Class = "UILabel"; text = "-222°"; ObjectID = "i96-WJ-gvg"; */
+"i96-WJ-gvg.text" = "-222°";
+
+/* Class = "UILabel"; text = "未来天气"; ObjectID = "iCB-Bu-ddM"; */
+"iCB-Bu-ddM.text" = "未来天气";
+
+/* Class = "UILabel"; text = "朗空商城"; ObjectID = "iCC-KS-fcp"; */
+"iCC-KS-fcp.text" = "朗空商城";
+
+/* Class = "UILabel"; text = "添加设备"; ObjectID = "iFH-zu-iee"; */
+"iFH-zu-iee.text" = "添加设备";
+
+/* Class = "UILabel"; text = "订单详情："; ObjectID = "iJ0-Nu-de4"; */
+"iJ0-Nu-de4.text" = "订单详情：";
+
+/* Class = "UILabel"; text = "AQI"; ObjectID = "iJB-PG-0LX"; */
+"iJB-PG-0LX.text" = "AQI";
+
+/* Class = "UILabel"; text = "未连接"; ObjectID = "j7f-LO-pYk"; */
+"j7f-LO-pYk.text" = "未连接";
+
+/* Class = "UILabel"; text = "未连接"; ObjectID = "jB7-ds-veK"; */
+"jB7-ds-veK.text" = "未连接";
+
+/* Class = "UILabel"; text = "钱包"; ObjectID = "jGQ-9m-fpg"; */
+"jGQ-9m-fpg.text" = "钱包";
+
+/* Class = "UILabel"; text = "28°  12°"; ObjectID = "jOk-sY-QOP"; */
+"jOk-sY-QOP.text" = "28°  12°";
+
+/* Class = "UIButton"; normalTitle = "注 册"; ObjectID = "jY5-5E-f3G"; */
+"jY5-5E-f3G.normalTitle" = "注 册";
+
+/* Class = "UILabel"; text = "充值"; ObjectID = "jg6-Ae-IGI"; */
+"jg6-Ae-IGI.text" = "充值";
+
+/* Class = "UITabBarItem"; title = "城市"; ObjectID = "jmp-GZ-Yk9"; */
+"jmp-GZ-Yk9.title" = "城市";
+
+/* Class = "UILabel"; text = "￥0.0"; ObjectID = "k9w-o1-2lp"; */
+"k9w-o1-2lp.text" = "￥0.0";
+
+/* Class = "UILabel"; text = "20°"; ObjectID = "kwb-T0-Lh3"; */
+"kwb-T0-Lh3.text" = "20°";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "l9U-1b-rbY"; */
+"l9U-1b-rbY.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "详细数据"; ObjectID = "lkw-pb-dlB"; */
+"lkw-pb-dlB.text" = "详细数据";
+
+/* Class = "UILabel"; text = "反馈"; ObjectID = "mSV-LN-zvu"; */
+"mSV-LN-zvu.text" = "反馈";
+
+/* Class = "UILabel"; text = "O3"; ObjectID = "mSi-0I-Kqy"; */
+"mSi-0I-Kqy.text" = "O3";
+
+/* Class = "UILabel"; text = "支持支付宝支付的用户"; ObjectID = "nIY-Q7-86e"; */
+"nIY-Q7-86e.text" = "支持支付宝支付的用户";
+
+/* Class = "UILabel"; text = "发现朗空空气净化器"; ObjectID = "nSP-C5-veB"; */
+"nSP-C5-veB.text" = "发现朗空空气净化器";
+
+/* Class = "UILabel"; text = "22°"; ObjectID = "ndF-IX-Gyk"; */
+"ndF-IX-Gyk.text" = "22°";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "neT-YZ-R3Y"; */
+"neT-YZ-R3Y.text" = "密码";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "oJC-mj-fv2"; */
+"oJC-mj-fv2.text" = "设置";
+
+/* Class = "UILabel"; text = "清除连接密码"; ObjectID = "ojC-fP-tBi"; */
+"ojC-fP-tBi.text" = "清除连接密码";
+
+/* Class = "UILabel"; text = "极速"; ObjectID = "p7g-it-AgF"; */
+"p7g-it-AgF.text" = "极速";
+
+/* Class = "UILabel"; text = "连接密码设置"; ObjectID = "pET-GF-Tcx"; */
+"pET-GF-Tcx.text" = "连接密码设置";
+
+/* Class = "UILabel"; text = "城市空气质量"; ObjectID = "pPm-Wv-JNI"; */
+"pPm-Wv-JNI.text" = "城市空气质量";
+
+/* Class = "UIButton"; normalTitle = "保存修改"; ObjectID = "pdO-Ni-fAq"; */
+"pdO-Ni-fAq.normalTitle" = "保存修改";
+
+/* Class = "UILabel"; text = "订单金额："; ObjectID = "plo-YF-Ma0"; */
+"plo-YF-Ma0.text" = "订单金额：";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qGM-oP-GKW"; */
+"qGM-oP-GKW.text" = "Label";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "qLb-Ct-EMb"; */
+"qLb-Ct-EMb.text" = "3";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "qO1-fU-Nja"; */
+"qO1-fU-Nja.text" = "200";
+
+/* Class = "UILabel"; text = "20°"; ObjectID = "rqr-Vx-Arl"; */
+"rqr-Vx-Arl.text" = "20°";
+
+/* Class = "UILabel"; text = "AQI"; ObjectID = "s65-QB-b4G"; */
+"s65-QB-b4G.text" = "AQI";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "s6y-Je-XXb"; */
+"s6y-Je-XXb.text" = "账号";
+
+/* Class = "UILabel"; text = "40"; ObjectID = "sZx-GA-PHY"; */
+"sZx-GA-PHY.text" = "40";
+
+/* Class = "UILabel"; text = "消息"; ObjectID = "sch-Rs-fn5"; */
+"sch-Rs-fn5.text" = "消息";
+
+/* Class = "UILabel"; text = "状态信息"; ObjectID = "tSt-c0-PrE"; */
+"tSt-c0-PrE.text" = "状态信息";
+
+/* Class = "UILabel"; text = "密码"; ObjectID = "tfX-z0-Cmx"; */
+"tfX-z0-Cmx.text" = "密码";
+
+/* Class = "UILabel"; text = "消息"; ObjectID = "tnt-iU-Ib6"; */
+"tnt-iU-Ib6.text" = "消息";
+
+/* Class = "UILabel"; text = "我的设备"; ObjectID = "tnv-Ua-dmv"; */
+"tnv-Ua-dmv.text" = "我的设备";
+
+/* Class = "UILabel"; text = "90"; ObjectID = "uQG-LN-qBd"; */
+"uQG-LN-qBd.text" = "90";
+
+/* Class = "UILabel"; text = "2015年4月1日 14:23:56"; ObjectID = "ujh-54-32G"; */
+"ujh-54-32G.text" = "2015年4月1日 14:23:56";
+
+/* Class = "UILabel"; text = "8888元"; ObjectID = "uji-VS-fmW"; */
+"uji-VS-fmW.text" = "8888元";
+
+/* Class = "UILabel"; text = "PM2.5"; ObjectID = "uun-JX-0rx"; */
+"uun-JX-0rx.text" = "PM2.5";
+
+/* Class = "UILabel"; text = "滤网剩余99%"; ObjectID = "uzm-zD-5D0"; */
+"uzm-zD-5D0.text" = "滤网剩余99%";
+
+/* Class = "UILabel"; text = "NO2"; ObjectID = "v8P-Yd-e8V"; */
+"v8P-Yd-e8V.text" = "NO2";
+
+/* Class = "UILabel"; text = "96"; ObjectID = "vPa-0o-lWU"; */
+"vPa-0o-lWU.text" = "96";
+
+/* Class = "UILabel"; text = "操作说明"; ObjectID = "vXj-O7-uJo"; */
+"vXj-O7-uJo.text" = "操作说明";
+
+/* Class = "UILabel"; text = "用户名"; ObjectID = "vgK-xw-KoX"; */
+"vgK-xw-KoX.text" = "用户名";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "vku-Y9-aMd"; */
+"vku-Y9-aMd.normalTitle" = "找回密码";
+
+/* Class = "UITextField"; placeholder = "请告诉我们您遇到的问题或者您对朗空使用中的意见："; ObjectID = "vn6-Tv-UkN"; */
+"vn6-Tv-UkN.placeholder" = "请告诉我们您遇到的问题或者您对朗空使用中的意见：";
+
+/* Class = "UIButton"; normalTitle = "dismissWaitView"; ObjectID = "vnn-TI-umj"; */
+"vnn-TI-umj.normalTitle" = "dismissWaitView";
+
+/* Class = "UIButton"; highlightedTitle = "分享"; ObjectID = "vuj-wB-DGo"; */
+"vuj-wB-DGo.highlightedTitle" = "分享";
+
+/* Class = "UIButton"; normalTitle = "分享"; ObjectID = "vuj-wB-DGo"; */
+"vuj-wB-DGo.normalTitle" = "分享";
+
+/* Class = "UILabel"; text = "昵称"; ObjectID = "vzE-bE-lUY"; */
+"vzE-bE-lUY.text" = "昵称";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "wVc-Uu-ZdH"; */
+"wVc-Uu-ZdH.text" = "2";
+
+/* Class = "UILabel"; text = "WiFi设置"; ObjectID = "wj2-Fz-LTR"; */
+"wj2-Fz-LTR.text" = "WiFi设置";
+
+/* Class = "UITextField"; placeholder = "修改密码"; ObjectID = "wxi-Qj-ldX"; */
+"wxi-Qj-ldX.placeholder" = "修改密码";
+
+/* Class = "UILabel"; text = "上海"; ObjectID = "xB6-t9-kMG"; */
+"xB6-t9-kMG.text" = "上海";
+
+/* Class = "UILabel"; text = "客厅"; ObjectID = "xJ9-om-Edk"; */
+"xJ9-om-Edk.text" = "客厅";
+
+/* Class = "UILabel"; text = "设备离线\n请通过设置页面设置WiFi网络以使设备联网"; ObjectID = "xgL-8d-KAf"; */
+"xgL-8d-KAf.text" = "设备离线\n请通过设置页面设置WiFi网络以使设备联网";
+
+/* Class = "UITextField"; placeholder = "输入自定义名称"; ObjectID = "xgz-QB-Sqs"; */
+"xgz-QB-Sqs.placeholder" = "输入自定义名称";
+
+/* Class = "UILabel"; text = "20°"; ObjectID = "xi5-mj-NGL"; */
+"xi5-mj-NGL.text" = "20°";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "xmH-pb-tg9"; */
+"xmH-pb-tg9.text" = "State";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "yBy-A5-amT"; */
+"yBy-A5-amT.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "μg/m³"; ObjectID = "ykz-6z-1aF"; */
+"ykz-6z-1aF.text" = "μg/m³";
+
+/* Class = "UILabel"; text = "修改密码"; ObjectID = "ysI-SV-zhL"; */
+"ysI-SV-zhL.text" = "修改密码";
+
+/* Class = "UILabel"; text = "96"; ObjectID = "zWe-AV-0aQ"; */
+"zWe-AV-0aQ.text" = "96";

@@ -12,6 +12,7 @@
 		83EACEC31D922C9C008A7413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EACEC11D922C9C008A7413 /* Main.storyboard */; };
 		83EACEC51D922C9C008A7413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EACEC41D922C9C008A7413 /* Assets.xcassets */; };
 		83EACEC81D922C9C008A7413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EACEC61D922C9C008A7413 /* LaunchScreen.storyboard */; };
+		83FC57F71E29597800202816 /* JZTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC57F61E29597800202816 /* JZTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83EACEC41D922C9C008A7413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83EACEC71D922C9C008A7413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83EACEC91D922C9C008A7413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FC57F61E29597800202816 /* JZTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		83EACEBC1D922C9C008A7413 /* DearBaby */ = {
 			isa = PBXGroup;
 			children = (
+				83FC57F51E29596000202816 /* JZFunc_Swift */,
 				83EACEBD1D922C9C008A7413 /* AppDelegate.swift */,
 				83EACEBF1D922C9C008A7413 /* ViewController.swift */,
 				83EACEC11D922C9C008A7413 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				83EACEC91D922C9C008A7413 /* Info.plist */,
 			);
 			path = DearBaby;
+			sourceTree = "<group>";
+		};
+		83FC57F51E29596000202816 /* JZFunc_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				83FC57F61E29597800202816 /* JZTimer.swift */,
+			);
+			path = JZFunc_Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				8387B6871E27ED3600BE07F9 /* ViewController.swift in Sources */,
 				83EACEBE1D922C9C008A7413 /* AppDelegate.swift in Sources */,
+				83FC57F71E29597800202816 /* JZTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

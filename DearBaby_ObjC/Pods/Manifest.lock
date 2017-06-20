@@ -1,0 +1,18 @@
+PODS:
+  - PureLayout (3.0.2)
+  - TPKeyboardAvoiding (1.3.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - PureLayout
+  - TPKeyboardAvoiding
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 05a4f6d36a072d2877a5d608dedcbe2f734e42b1
+
+COCOAPODS: 1.1.1

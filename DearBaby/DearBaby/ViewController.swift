@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 var babyBronTime: String = "2016年05月27日 23点34分";
 
 
@@ -45,23 +44,35 @@ class ViewController: UIViewController {
         //
         let dateformatter = DateFormatter();
         dateformatter.dateFormat = "yyyy年MM月dd日 HH点mm分";
-        var bornTime = dateformatter.date(from:babyBronTime);
+        let bornTime = dateformatter.date(from:babyBronTime);
+        
+        let calendar = Calendar.current;
+        
+        let bornTimeComponent = calendar.dateComponents([.era, .year, .month, .day, .hour, .minute, .second], from: bornTime!);
+
         
         TitleLabel.text = "亲爱的知之";
         BronTime.text = "你于\(babyBronTime)诞生";
         
         // var nowTime: NSDate = NSDate();
-        var gregorian = NSCalendar(calendarIdentifier: NSCalendar.Identifier.gregorian)
+        let gregorian = NSCalendar(calendarIdentifier: NSCalendar.Identifier.gregorian)
         var result:DateComponents = gregorian!.components(NSCalendar.Unit.day,
-                                           from: bornTime!,
-                                           to: NSDate() as Date,
-                                           options: NSCalendar.Options(rawValue: 0));
+                                                          from: bornTime!,
+                                                          to: NSDate() as Date,
+                                                          options: NSCalendar.Options(rawValue: 0));
         GrowupDay.text = "至今成长了\(String(format:"%d",result.day!))天";
         
+        // ----------
         result = gregorian!.components(NSCalendar.Unit.month,
                                        from: bornTime!,
                                        to: NSDate() as Date,
                                        options: NSCalendar.Options(rawValue: 0));
+        // 
+        var lastMothDateComponents:DateComponents = DateComponents();
+        if (lastMothDateComponents.day)
+        lastMothDateComponents.month = -1;
+        
+        //
         GrowupMounh.text = "合计\(String(format:"%d",result.month!))个月"
         
         result = gregorian!.components(NSCalendar.Unit.minute,

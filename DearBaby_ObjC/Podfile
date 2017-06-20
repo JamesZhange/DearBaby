@@ -1,0 +1,31 @@
+platform :ios, ‘8.0’
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DearBabyObjC' do
+
+# 数据库
+# pod 'FMDB'
+
+# 二维码
+# pod 'ZXingObjC'
+
+# tableview 侧边索引条
+# pod 'MJNIndexView'
+
+# 系统信息
+# pod 'ALSystemUtilities'
+
+# autolayout代码调整
+pod 'PureLayout'
+
+# UILabel属性扩展
+pod 'TTTAttributedLabel'
+
+# 键盘遮挡输入框的解决办法
+pod 'TPKeyboardAvoiding'
+
+# 加密算法
+# pod 'CocoaSecurity'
+
+end

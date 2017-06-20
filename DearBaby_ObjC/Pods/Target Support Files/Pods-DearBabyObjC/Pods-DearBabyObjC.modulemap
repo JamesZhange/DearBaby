@@ -1,0 +1,6 @@
+framework module Pods_DearBabyObjC {
+  umbrella header "Pods-DearBabyObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}
