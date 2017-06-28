@@ -21,15 +21,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="launch screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIm-Om-i0M">
-                                <rect key="frame" x="138" y="303" width="237" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGh-6K-9tK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.81960784313725488" green="0.93333333333333335" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="YaY-gR-W8g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dear Baby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIm-Om-i0M">
+                                <rect key="frame" x="111.5" y="312.5" width="152.5" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for 知妈. by 知爸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRv-U6-isr">
+                                <rect key="frame" x="132" y="629" width="112" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jIm-Om-i0M" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="881-7u-kiY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="GRv-U6-isr" secondAttribute="bottom" constant="20" id="KBy-cC-lGZ"/>
+                            <constraint firstAttribute="bottom" secondItem="YaY-gR-W8g" secondAttribute="bottom" id="Lif-S8-MD7"/>
+                            <constraint firstItem="GRv-U6-isr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NSh-XZ-zcO"/>
+                            <constraint firstAttribute="trailing" secondItem="YaY-gR-W8g" secondAttribute="trailing" id="RcF-M4-StM"/>
+                            <constraint firstItem="TGh-6K-9tK" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="RjJ-II-rnW"/>
+                            <constraint firstAttribute="trailing" secondItem="TGh-6K-9tK" secondAttribute="trailing" id="g6S-fJ-hLN"/>
+                            <constraint firstAttribute="bottom" secondItem="TGh-6K-9tK" secondAttribute="bottom" id="hGR-NC-6PF"/>
+                            <constraint firstItem="TGh-6K-9tK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ikc-xt-HXl"/>
+                            <constraint firstItem="YaY-gR-W8g" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lIp-Ib-FGI"/>
+                            <constraint firstItem="YaY-gR-W8g" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lMw-vD-nDg"/>
+                            <constraint firstItem="jIm-Om-i0M" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xXw-F2-VI7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -37,4 +63,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BG.png" width="1080" height="1920"/>
+    </resources>
 </document>

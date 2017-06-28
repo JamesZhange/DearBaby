@@ -192,7 +192,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(NetworkReachability);
             // 收到的是：{"currentTimeMillis":"1488531806349"}
             _FAServerReachable = eumFAServerReach_Reachable;
             [self sendStateToDelegate];
-            // NSLog(@"正常连接朗空服务器");
+            NSLog(@"正常连接朗空服务器");
         }
             break;
         default:

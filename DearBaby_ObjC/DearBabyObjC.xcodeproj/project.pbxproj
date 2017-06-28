@@ -58,6 +58,10 @@
 		8304FDE51EF8EA4200B48808 /* AppModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDE41EF8EA4200B48808 /* AppModule.m */; };
 		8304FDE81EF8EB3700B48808 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDE71EF8EB3700B48808 /* JZBaseViewController.m */; };
 		8304FDEB1EF8EED000B48808 /* TonyReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDEA1EF8EED000B48808 /* TonyReachability.m */; };
+		8350CD591F01F782001F1085 /* DearBaby.m in Sources */ = {isa = PBXBuildFile; fileRef = 8350CD581F01F782001F1085 /* DearBaby.m */; };
+		83A1D7AB1F0353DA00E62978 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7A81F0353DA00E62978 /* BG.png */; };
+		83A1D7AC1F0353DA00E62978 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7A91F0353DA00E62978 /* BG1.png */; };
+		83A1D7AD1F0353DA00E62978 /* BG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7AA1F0353DA00E62978 /* BG2.png */; };
 		CE4DBF0944D782A868261D4C /* Pods_DearBabyObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C416231E01949CDB25BA5DA /* Pods_DearBabyObjC.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +167,12 @@
 		8304FDE71EF8EB3700B48808 /* JZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseViewController.m; sourceTree = "<group>"; };
 		8304FDE91EF8EED000B48808 /* TonyReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonyReachability.h; sourceTree = "<group>"; };
 		8304FDEA1EF8EED000B48808 /* TonyReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TonyReachability.m; sourceTree = "<group>"; };
+		833D16EF1F00AF530052A5B2 /* AppCoredataCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoredataCategoryHeader.h; sourceTree = "<group>"; };
+		8350CD571F01F782001F1085 /* DearBaby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DearBaby.h; sourceTree = "<group>"; };
+		8350CD581F01F782001F1085 /* DearBaby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DearBaby.m; sourceTree = "<group>"; };
+		83A1D7A81F0353DA00E62978 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		83A1D7A91F0353DA00E62978 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG1.png; sourceTree = "<group>"; };
+		83A1D7AA1F0353DA00E62978 /* BG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG2.png; sourceTree = "<group>"; };
 		BFC65BB29B853BE91A93EA7C /* Pods-DearBabyObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DearBabyObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DearBabyObjC/Pods-DearBabyObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		DDB9AE8CC5D8594B2F1D8D64 /* Pods-DearBabyObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DearBabyObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DearBabyObjC/Pods-DearBabyObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -241,6 +251,7 @@
 		8304FD251EF8DEDA00B48808 /* AppCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				833D16EF1F00AF530052A5B2 /* AppCoredataCategoryHeader.h */,
 				8304FDE01EF8EA1600B48808 /* AppCoredata.h */,
 				8304FDE11EF8EA1600B48808 /* AppCoredata.m */,
 			);
@@ -250,6 +261,8 @@
 		8304FD261EF8DEDA00B48808 /* CustomMod */ = {
 			isa = PBXGroup;
 			children = (
+				8350CD571F01F782001F1085 /* DearBaby.h */,
+				8350CD581F01F782001F1085 /* DearBaby.m */,
 			);
 			path = CustomMod;
 			sourceTree = "<group>";
@@ -312,6 +325,8 @@
 			isa = PBXGroup;
 			children = (
 				8304FD3C1EF8DEDA00B48808 /* ChinesePinYin */,
+				8304FD581EF8DEDA00B48808 /* JZMotion */,
+				8304FD6B1EF8DEDA00B48808 /* NetworkReachability */,
 				8304FD4C1EF8DEDA00B48808 /* JZColorHelper.h */,
 				8304FD4D1EF8DEDA00B48808 /* JZColorHelper.m */,
 				8304FD4E1EF8DEDA00B48808 /* JZDateHelper.h */,
@@ -324,7 +339,6 @@
 				8304FD551EF8DEDA00B48808 /* JZLockTimer.m */,
 				8304FD561EF8DEDA00B48808 /* JZMemory.h */,
 				8304FD571EF8DEDA00B48808 /* JZMemory.m */,
-				8304FD581EF8DEDA00B48808 /* JZMotion */,
 				8304FD5D1EF8DEDA00B48808 /* JZMulticastDelegate.h */,
 				8304FD5E1EF8DEDA00B48808 /* JZMulticastDelegate.m */,
 				8304FD5F1EF8DEDA00B48808 /* JZMultiDelegateObject.h */,
@@ -339,7 +353,6 @@
 				8304FD681EF8DEDA00B48808 /* JZURLRequest.m */,
 				8304FD691EF8DEDA00B48808 /* JZView.h */,
 				8304FD6A1EF8DEDA00B48808 /* JZView.m */,
-				8304FD6B1EF8DEDA00B48808 /* NetworkReachability */,
 				8304FD6E1EF8DEDA00B48808 /* NSString+chineseNumberals.h */,
 				8304FD6F1EF8DEDA00B48808 /* NSString+chineseNumberals.m */,
 				8304FD701EF8DEDA00B48808 /* NSString+containsSubString.h */,
@@ -427,6 +440,9 @@
 		8304FD7C1EF8DEDA00B48808 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				83A1D7A81F0353DA00E62978 /* BG.png */,
+				83A1D7A91F0353DA00E62978 /* BG1.png */,
+				83A1D7AA1F0353DA00E62978 /* BG2.png */,
 				8304FDDB1EF8DF5F00B48808 /* DearBaby.xcassets */,
 			);
 			path = Images;
@@ -536,8 +552,11 @@
 			files = (
 				8304FDCD1EF8DEDA00B48808 /* LaunchScreen.storyboard in Resources */,
 				8304FDB61EF8DEDA00B48808 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				83A1D7AB1F0353DA00E62978 /* BG.png in Resources */,
 				8304FDCE1EF8DEDA00B48808 /* Main.storyboard in Resources */,
 				8304FDD41EF8DEDA00B48808 /* Main.strings in Resources */,
+				83A1D7AD1F0353DA00E62978 /* BG2.png in Resources */,
+				83A1D7AC1F0353DA00E62978 /* BG1.png in Resources */,
 				8304FDDC1EF8DF5F00B48808 /* DearBaby.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +631,7 @@
 				8304FDAA1EF8DEDA00B48808 /* JZCompatibleAlert.m in Sources */,
 				8304FDB41EF8DEDA00B48808 /* PinYinForObjc.m in Sources */,
 				8304FDB01EF8DEDA00B48808 /* ChineseToPinyinResource.m in Sources */,
+				8350CD591F01F782001F1085 /* DearBaby.m in Sources */,
 				8304FDCB1EF8DEDA00B48808 /* UIScrollView+subviews.m in Sources */,
 				8304FDC31EF8DEDA00B48808 /* JZTimer.m in Sources */,
 				8304FDE21EF8EA1600B48808 /* AppCoredata.m in Sources */,

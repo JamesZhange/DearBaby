@@ -7,7 +7,15 @@
 //
 
 #import "JZMultiDelegateObject.h"
+#import "AppGlobal.h"
+#import "DearBaby.h"
+
 
 @interface AppCoredata : JZMultiDelegateObject
+SYNTHESIZE_SINGLETON_FOR_HEADER(AppCoredata)
+
+@property (nonatomic, readonly) DearBaby* theLittleBaby;
 
 @end
+
+

@@ -8,13 +8,26 @@
 
 #import <Foundation/Foundation.h>
 
+@class JZIntervalDateComponents;
+
+typedef NS_ENUM(NSUInteger, eumDateIntervalFormat) {
+    
+    IntervalUnitYear = (1UL << 1),
+    IntervalUnitMonth = (1UL << 2),
+    IntervalUnitDay = (1UL << 3),
+    IntervalUnitHour = (1UL << 4),
+    IntervalUnitMinute = (1UL << 5),
+    IntervalUnitSecond = (1UL << 6),
+};
+
+
 
 
 
 
 @interface JZDateHelper : NSObject
 
-// 时间戳
+// 数值<->NSDate 时间戳
 +(unsigned long)NowTimeStampSecond;
 +(unsigned long)NowTimeStampMillisecond;
 +(unsigned long)NowTimeStampMicrosecond;
@@ -27,8 +40,33 @@
 +(NSDate*)dateFromTimeStampMillisecond: (unsigned long)timeStampMillisecond;
 +(NSDate*)dateFromTimeStampMicrosecond: (unsigned long)timeStampMicrosecond;
 
-// 格式转换
+// 字符<->NSDate 格式转换
 +(NSDate*)dateFromString:(NSString*)datestring withFormat: (NSString*)dateformat;
 +(NSString*)stringFromDate:(NSDate*)date withFormat: (NSString*)dateformat;
 
+
+// 时间间隔
++(JZIntervalDateComponents*)IntervalHumanTimeSinceDate:(NSDate*)date1 ToDate:(NSDate*)date2;
+
+
+
 @end
+
+
+
+
+
+
+@interface JZIntervalDateComponents : NSObject
+
+@property NSInteger year;
+@property NSInteger month;
+@property NSInteger day;
+@property NSInteger hour;
+@property NSInteger minute;
+@property NSInteger second;
+
+@end
+
+
+
