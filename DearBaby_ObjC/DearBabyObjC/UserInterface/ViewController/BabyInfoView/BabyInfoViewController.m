@@ -71,12 +71,12 @@
     // 文字
     [self initBirthdayString];
     cycleCalculTimer = [JZTimer newTimer];
-    [cycleCalculTimer startTimerTimingSecond: 10 block: ^{
+    [cycleCalculTimer startTimerTimingSecond: 1 block: ^{
         [self calculIntervalTimerAndShow];
     } repeat:YES];
     [cycleCalculTimer fire];
     
-    [JZTimer delayTimingSecond: 2 RunBlock:^{
+    [JZTimer delayTimingSecond: 1 RunBlock:^{
         [self showViewLoadAnimation];
     }];
 }
@@ -139,7 +139,7 @@
 
 -(void)initBirthdayString
 {
-    self.BabyNameLabel.text = [NSString stringWithFormat: @"亲爱的%@：", APPInstance(AppCoredata).theLittleBaby.BabyName];
+    self.BabyNameLabel.text = [NSString stringWithFormat: @"%@", APPInstance(AppCoredata).theLittleBaby.BabyName];
     NSString* birthdaystr = [JZDateHelper stringFromDate:APPInstance(AppCoredata).theLittleBaby.BabyBirthday withFormat:@"yyyy年MM月dd日 HH点mm分"];
     self.BirthdayStringLabel.text = [NSString stringWithFormat: @"你于 %@ 出生", birthdaystr];
 }
@@ -158,11 +158,11 @@
         NSDate* nowTime = [NSDate date];
         JZIntervalDateComponents* intervalComp = [JZDateHelper IntervalHumanTimeSinceDate:birthday ToDate:nowTime];
 
-        self.IntervalYear.text = [NSString stringWithFormat:@"%ld", intervalComp.year];
-        self.IntervalMonth.text = [NSString stringWithFormat:@"%ld", intervalComp.month];
-        self.IntervalDay.text = [NSString stringWithFormat:@"%ld", intervalComp.day];
-        self.IntervalHour.text = [NSString stringWithFormat:@"%ld", intervalComp.hour];
-        self.IntervalMinute.text = [NSString stringWithFormat:@"%ld", intervalComp.minute];
+        self.IntervalYear.text = [NSString stringWithFormat:@"%ld", (long)intervalComp.year];
+        self.IntervalMonth.text = [NSString stringWithFormat:@"%ld", (long)intervalComp.month];
+        self.IntervalDay.text = [NSString stringWithFormat:@"%ld", (long)intervalComp.day];
+        self.IntervalHour.text = [NSString stringWithFormat:@"%ld", (long)intervalComp.hour];
+        self.IntervalMinute.text = [NSString stringWithFormat:@"%ld", (long)intervalComp.minute];
     }));
 }
 

@@ -59,7 +59,9 @@
 		8304FDE81EF8EB3700B48808 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDE71EF8EB3700B48808 /* JZBaseViewController.m */; };
 		8304FDEB1EF8EED000B48808 /* TonyReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDEA1EF8EED000B48808 /* TonyReachability.m */; };
 		8350CD591F01F782001F1085 /* DearBaby.m in Sources */ = {isa = PBXBuildFile; fileRef = 8350CD581F01F782001F1085 /* DearBaby.m */; };
-		83A1D7AB1F0353DA00E62978 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7A81F0353DA00E62978 /* BG.png */; };
+		83820CBD1F03956800423B0A /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBC1F03956800423B0A /* BG.png */; };
+		83820CC01F0398D700423B0A /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBE1F0398D700423B0A /* BG.png */; };
+		83820CC11F0398D700423B0A /* LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBF1F0398D700423B0A /* LaunchScreen.jpg */; };
 		83A1D7AC1F0353DA00E62978 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7A91F0353DA00E62978 /* BG1.png */; };
 		83A1D7AD1F0353DA00E62978 /* BG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A1D7AA1F0353DA00E62978 /* BG2.png */; };
 		CE4DBF0944D782A868261D4C /* Pods_DearBabyObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C416231E01949CDB25BA5DA /* Pods_DearBabyObjC.framework */; };
@@ -170,7 +172,9 @@
 		833D16EF1F00AF530052A5B2 /* AppCoredataCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoredataCategoryHeader.h; sourceTree = "<group>"; };
 		8350CD571F01F782001F1085 /* DearBaby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DearBaby.h; sourceTree = "<group>"; };
 		8350CD581F01F782001F1085 /* DearBaby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DearBaby.m; sourceTree = "<group>"; };
-		83A1D7A81F0353DA00E62978 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		83820CBC1F03956800423B0A /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		83820CBE1F0398D700423B0A /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		83820CBF1F0398D700423B0A /* LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchScreen.jpg; sourceTree = "<group>"; };
 		83A1D7A91F0353DA00E62978 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG1.png; sourceTree = "<group>"; };
 		83A1D7AA1F0353DA00E62978 /* BG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG2.png; sourceTree = "<group>"; };
 		BFC65BB29B853BE91A93EA7C /* Pods-DearBabyObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DearBabyObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DearBabyObjC/Pods-DearBabyObjC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +231,7 @@
 		8304FD0D1EF7C90D00B48808 /* DearBabyObjC */ = {
 			isa = PBXGroup;
 			children = (
+				83820CBC1F03956800423B0A /* BG.png */,
 				8304FD111EF7C90D00B48808 /* AppDelegate.h */,
 				8304FD121EF7C90D00B48808 /* AppDelegate.m */,
 				8304FD271EF8DEDA00B48808 /* Global */,
@@ -440,7 +445,8 @@
 		8304FD7C1EF8DEDA00B48808 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				83A1D7A81F0353DA00E62978 /* BG.png */,
+				83820CBE1F0398D700423B0A /* BG.png */,
+				83820CBF1F0398D700423B0A /* LaunchScreen.jpg */,
 				83A1D7A91F0353DA00E62978 /* BG1.png */,
 				83A1D7AA1F0353DA00E62978 /* BG2.png */,
 				8304FDDB1EF8DF5F00B48808 /* DearBaby.xcassets */,
@@ -552,9 +558,11 @@
 			files = (
 				8304FDCD1EF8DEDA00B48808 /* LaunchScreen.storyboard in Resources */,
 				8304FDB61EF8DEDA00B48808 /* unicode_to_hanyu_pinyin.txt in Resources */,
-				83A1D7AB1F0353DA00E62978 /* BG.png in Resources */,
 				8304FDCE1EF8DEDA00B48808 /* Main.storyboard in Resources */,
 				8304FDD41EF8DEDA00B48808 /* Main.strings in Resources */,
+				83820CBD1F03956800423B0A /* BG.png in Resources */,
+				83820CC01F0398D700423B0A /* BG.png in Resources */,
+				83820CC11F0398D700423B0A /* LaunchScreen.jpg in Resources */,
 				83A1D7AD1F0353DA00E62978 /* BG2.png in Resources */,
 				83A1D7AC1F0353DA00E62978 /* BG1.png in Resources */,
 				8304FDDC1EF8DF5F00B48808 /* DearBaby.xcassets in Resources */,

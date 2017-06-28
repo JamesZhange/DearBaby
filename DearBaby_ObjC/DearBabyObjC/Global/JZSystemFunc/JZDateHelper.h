@@ -10,18 +10,6 @@
 
 @class JZIntervalDateComponents;
 
-typedef NS_ENUM(NSUInteger, eumDateIntervalFormat) {
-    
-    IntervalUnitYear = (1UL << 1),
-    IntervalUnitMonth = (1UL << 2),
-    IntervalUnitDay = (1UL << 3),
-    IntervalUnitHour = (1UL << 4),
-    IntervalUnitMinute = (1UL << 5),
-    IntervalUnitSecond = (1UL << 6),
-};
-
-
-
 
 
 

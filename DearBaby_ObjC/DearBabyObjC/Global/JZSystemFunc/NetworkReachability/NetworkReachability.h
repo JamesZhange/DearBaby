@@ -24,8 +24,6 @@ typedef NS_ENUM(int, eumFAServerReachState) {
 };
 
 
-
-
 @interface NetworkReachability : JZMultiDelegateObject
 SYNTHESIZE_SINGLETON_FOR_HEADER(NetworkReachability);
 
@@ -36,11 +34,6 @@ SYNTHESIZE_SINGLETON_FOR_HEADER(NetworkReachability);
 -(void) stopMonitorNetwork;
 
 @end
-
-
-
-
-
 
 
 @protocol NetworkReachabilityDelegate <NSObject>

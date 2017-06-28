@@ -225,50 +225,6 @@
     return intervalDay;
 }
 
-
-
-+(NSInteger)IntervalMonthSinceDate:(NSDate*)date1 ToDate:(NSDate*)date2
-{
-    if ((nil == date1) || (nil == date2)) {
-        return 0;
-    }
-    return 0;
-}
-
-+(NSInteger)IntervalDaySinceDate:(NSDate*)date1 ToDate:(NSDate*)date2
-{
-    if ((nil == date1) || (nil == date2)) {
-        return 0;
-    }
-    return 0;
-}
-
-+(NSInteger)IntervalHourSinceDate:(NSDate*)date1 ToDate:(NSDate*)date2
-{
-    if ((nil == date1) || (nil == date2)) {
-        return 0;
-    }
-    return 0;
-}
-
-+(NSInteger)IntervalMinuteSinceDate:(NSDate*)date1 ToDate:(NSDate*)date2
-{
-    if ((nil == date1) || (nil == date2)) {
-        return 0;
-    }
-    return 0;
-}
-
-+(NSInteger)IntervalSecondSinceDate:(NSDate*)date1 ToDate:(NSDate*)date2
-{
-    if ((nil == date1) || (nil == date2)) {
-        return 0;
-    }
-    return 0;
-}
-
-
-
 @end
 
 
