@@ -9,11 +9,25 @@
 #import "BabyInfoViewController.h"
 #import "AppGlobal.h"
 #import "AppModule.h"
+#import "JZAnimationHelper.h"
 
 
 @interface BabyInfoViewController ()
 {
     JZTimer* cycleCalculTimer;
+    
+    // animation
+    int sunTiltAngle;
+    JZTimer* sunRotationTimer;
+    
+    int flowerTiltAngle;
+    JZTimer* flowerRotationTimer;
+    
+    int flower2TiltAngle;
+    JZTimer* flower2RotationTimer;
+    
+    int flower3TiltAngle;
+    JZTimer* flower3RotationTimer;
 }
 
 @property (weak, nonatomic) IBOutlet UIView *BGView;
@@ -27,6 +41,12 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *FlowerImage;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *FlowerImageHeightConstraint;
+
+@property (weak, nonatomic) IBOutlet UIImageView *Flower2Image;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *Flower2ImageHeightConstraint;
+
+@property (weak, nonatomic) IBOutlet UIImageView *Flower3Image;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *Flower3ImageHeightConstraint;
 
 
 @property (weak, nonatomic) IBOutlet UILabel *AppNameLabel;
@@ -62,11 +82,26 @@
     
     self.FlowerImage.alpha = 0.8;
     self.FlowerImageHeightConstraint.constant = 0;
+    self.Flower2Image.alpha = 0.8;
+    self.Flower2ImageHeightConstraint.constant = 0;
+    self.Flower3Image.alpha = 0.8;
+    self.Flower3ImageHeightConstraint.constant = 0;
     
     self.SunImage.alpha = 0.8;
     self.SumImageTopConstraint.constant = -(self.SunImageHeightConstraint.constant+20);
     self.SumImageTrailingConstraint.constant = -(self.SunImageHeightConstraint.constant+20);
     [self.view layoutIfNeeded];
+    
+    // animation
+    sunTiltAngle = 1;
+    sunRotationTimer = [JZTimer newTimer];
+    
+    flowerTiltAngle = 1;
+    flowerRotationTimer = [JZTimer newTimer];
+    flower2TiltAngle = 0;
+    flower2RotationTimer = [JZTimer newTimer];
+    flower3TiltAngle = 1;
+    flower3RotationTimer = [JZTimer newTimer];
     
     // 文字
     [self initBirthdayString];
@@ -126,10 +161,30 @@
                                                                                     animations: ^{
                                                                                         self.InformationTextView.alpha = 1;
                                                                                     } completion: ^(BOOL finished){
+                                                                                        [self startNormalAnimation];
                                                                                     }];
                                                                }];
                                               
                                           }];
+                         
+                         [UIView animateWithDuration: 0.5
+                                               delay: 0.1
+                              usingSpringWithDamping: 0.2
+                               initialSpringVelocity: 0
+                                             options: UIViewAnimationOptionCurveEaseOut
+                                          animations: ^{
+                                              self.Flower2ImageHeightConstraint.constant = 170;
+                                          }
+                                          completion:nil];
+                         [UIView animateWithDuration: 0.5
+                                               delay: 0.2
+                              usingSpringWithDamping: 0.2
+                               initialSpringVelocity: 0
+                                             options: UIViewAnimationOptionCurveEaseOut
+                                          animations: ^{
+                                              self.Flower3ImageHeightConstraint.constant = 70;
+                                          }
+                                          completion:nil];
                          
                      }];
 }
@@ -166,5 +221,77 @@
     }));
 }
 
+
+-(void)startNormalAnimation
+{
+    [sunRotationTimer startTimerTimingSecond: 1 block:^{
+        
+        CGFloat angle = sunTiltAngle ? (CGFloat)(RadianFromAngle(15)) : (CGFloat)(RadianFromAngle(-15));
+        sunTiltAngle ^= 1;
+        [UIView animateWithDuration: 0.4
+                              delay: 0
+                            options: UIViewAnimationOptionCurveEaseInOut
+                         animations: ^{
+                             self.SunImage.transform = CGAffineTransformMakeRotation(angle);
+                             [self.view layoutIfNeeded];
+                         }
+                         completion: nil];
+    } repeat:YES];
+    [sunRotationTimer fire];
+    
+    //-- 1
+    NSTimeInterval duration1 = 4.1;
+    [JZAnimationHelper setAnchorPoint:CGPointMake(0.5, 1) forView: self.FlowerImage];
+    [flowerRotationTimer startTimerTimingSecond: duration1 block:^{
+        
+        CGFloat angle = flowerTiltAngle ? (CGFloat)(RadianFromAngle(10)) : (CGFloat)(RadianFromAngle(-10));
+        flowerTiltAngle ^= 1;
+        [UIView animateWithDuration: duration1
+                              delay: 0
+                            options: UIViewAnimationOptionCurveEaseInOut
+                         animations: ^{
+                             self.FlowerImage.transform = CGAffineTransformMakeRotation(angle);
+                             [self.view layoutIfNeeded];
+                         }
+                         completion: nil];
+    } repeat:YES];
+    [flowerRotationTimer fire];
+    
+    //-- 2
+    NSTimeInterval duration2 = 2.8;
+    [JZAnimationHelper setAnchorPoint:CGPointMake(0.5, 1) forView: self.Flower2Image];
+    [flower2RotationTimer startTimerTimingSecond: duration2 block:^{
+        
+        CGFloat angle = flower2TiltAngle ? (CGFloat)(RadianFromAngle(5)) : (CGFloat)(RadianFromAngle(-5));
+        flower2TiltAngle ^= 1;
+        [UIView animateWithDuration: duration2
+                              delay: 0
+                            options: UIViewAnimationOptionCurveEaseInOut
+                         animations: ^{
+                             self.Flower2Image.transform = CGAffineTransformMakeRotation(angle);
+                             [self.view layoutIfNeeded];
+                         }
+                         completion: nil];
+    } repeat:YES];
+    [flower2RotationTimer fire];
+    
+    //-- 3
+    NSTimeInterval duration3 = 1.4;
+    [JZAnimationHelper setAnchorPoint:CGPointMake(0.5, 1) forView: self.Flower3Image];
+    [flower3RotationTimer startTimerTimingSecond: duration3 block:^{
+        
+        CGFloat angle = flower2TiltAngle ? (CGFloat)(RadianFromAngle(3)) : (CGFloat)(RadianFromAngle(-3));
+        flower2TiltAngle ^= 1;
+        [UIView animateWithDuration: duration3
+                              delay: 0
+                            options: UIViewAnimationOptionCurveEaseInOut
+                         animations: ^{
+                             self.Flower3Image.transform = CGAffineTransformMakeRotation(angle);
+                             [self.view layoutIfNeeded];
+                         }
+                         completion: nil];
+    } repeat:YES];
+    [flower3RotationTimer fire];
+}
 
 @end

@@ -59,6 +59,12 @@
 		8304FDE81EF8EB3700B48808 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDE71EF8EB3700B48808 /* JZBaseViewController.m */; };
 		8304FDEB1EF8EED000B48808 /* TonyReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304FDEA1EF8EED000B48808 /* TonyReachability.m */; };
 		8350CD591F01F782001F1085 /* DearBaby.m in Sources */ = {isa = PBXBuildFile; fileRef = 8350CD581F01F782001F1085 /* DearBaby.m */; };
+		836641111F4148E3004527ED /* JZMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 836641101F4148E3004527ED /* JZMath.m */; };
+		836641151F415731004527ED /* Flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 836641121F415731004527ED /* Flower1.png */; };
+		836641161F415731004527ED /* Flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = 836641131F415731004527ED /* Flower2.png */; };
+		836641171F415731004527ED /* Flower3.png in Resources */ = {isa = PBXBuildFile; fileRef = 836641141F415731004527ED /* Flower3.png */; };
+		8366411A1F415DFD004527ED /* JZAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 836641191F415DFD004527ED /* JZAnimationHelper.m */; };
+		8366411D1F416660004527ED /* CEClickEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8366411C1F416660004527ED /* CEClickEffectView.m */; };
 		83820CBD1F03956800423B0A /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBC1F03956800423B0A /* BG.png */; };
 		83820CC01F0398D700423B0A /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBE1F0398D700423B0A /* BG.png */; };
 		83820CC11F0398D700423B0A /* LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83820CBF1F0398D700423B0A /* LaunchScreen.jpg */; };
@@ -172,6 +178,15 @@
 		833D16EF1F00AF530052A5B2 /* AppCoredataCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoredataCategoryHeader.h; sourceTree = "<group>"; };
 		8350CD571F01F782001F1085 /* DearBaby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DearBaby.h; sourceTree = "<group>"; };
 		8350CD581F01F782001F1085 /* DearBaby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DearBaby.m; sourceTree = "<group>"; };
+		8366410F1F4148E3004527ED /* JZMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZMath.h; sourceTree = "<group>"; };
+		836641101F4148E3004527ED /* JZMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZMath.m; sourceTree = "<group>"; };
+		836641121F415731004527ED /* Flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower1.png; sourceTree = "<group>"; };
+		836641131F415731004527ED /* Flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower2.png; sourceTree = "<group>"; };
+		836641141F415731004527ED /* Flower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower3.png; sourceTree = "<group>"; };
+		836641181F415DFD004527ED /* JZAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAnimationHelper.h; sourceTree = "<group>"; };
+		836641191F415DFD004527ED /* JZAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAnimationHelper.m; sourceTree = "<group>"; };
+		8366411B1F416660004527ED /* CEClickEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEClickEffectView.h; sourceTree = "<group>"; };
+		8366411C1F416660004527ED /* CEClickEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEClickEffectView.m; sourceTree = "<group>"; };
 		83820CBC1F03956800423B0A /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
 		83820CBE1F0398D700423B0A /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
 		83820CBF1F0398D700423B0A /* LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchScreen.jpg; sourceTree = "<group>"; };
@@ -342,6 +357,8 @@
 				8304FD531EF8DEDA00B48808 /* JZLocation.m */,
 				8304FD541EF8DEDA00B48808 /* JZLockTimer.h */,
 				8304FD551EF8DEDA00B48808 /* JZLockTimer.m */,
+				8366410F1F4148E3004527ED /* JZMath.h */,
+				836641101F4148E3004527ED /* JZMath.m */,
 				8304FD561EF8DEDA00B48808 /* JZMemory.h */,
 				8304FD571EF8DEDA00B48808 /* JZMemory.m */,
 				8304FD5D1EF8DEDA00B48808 /* JZMulticastDelegate.h */,
@@ -369,6 +386,8 @@
 				8304FD761EF8DEDA00B48808 /* SingletonObjDefine.h */,
 				8304FD771EF8DEDA00B48808 /* UIScrollView+subviews.h */,
 				8304FD781EF8DEDA00B48808 /* UIScrollView+subviews.m */,
+				836641181F415DFD004527ED /* JZAnimationHelper.h */,
+				836641191F415DFD004527ED /* JZAnimationHelper.m */,
 			);
 			path = JZSystemFunc;
 			sourceTree = "<group>";
@@ -420,6 +439,8 @@
 		8304FD791EF8DEDA00B48808 /* ThirdPartyModle */ = {
 			isa = PBXGroup;
 			children = (
+				8366411B1F416660004527ED /* CEClickEffectView.h */,
+				8366411C1F416660004527ED /* CEClickEffectView.m */,
 			);
 			path = ThirdPartyModle;
 			sourceTree = "<group>";
@@ -449,6 +470,9 @@
 				83820CBF1F0398D700423B0A /* LaunchScreen.jpg */,
 				83A1D7A91F0353DA00E62978 /* BG1.png */,
 				83A1D7AA1F0353DA00E62978 /* BG2.png */,
+				836641121F415731004527ED /* Flower1.png */,
+				836641131F415731004527ED /* Flower2.png */,
+				836641141F415731004527ED /* Flower3.png */,
 				8304FDDB1EF8DF5F00B48808 /* DearBaby.xcassets */,
 			);
 			path = Images;
@@ -527,7 +551,7 @@
 				TargetAttributes = {
 					8304FD0A1EF7C90D00B48808 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7D8R5M72ZQ;
+						DevelopmentTeam = 878PC6YRSJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -558,14 +582,17 @@
 			files = (
 				8304FDCD1EF8DEDA00B48808 /* LaunchScreen.storyboard in Resources */,
 				8304FDB61EF8DEDA00B48808 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				836641171F415731004527ED /* Flower3.png in Resources */,
 				8304FDCE1EF8DEDA00B48808 /* Main.storyboard in Resources */,
 				8304FDD41EF8DEDA00B48808 /* Main.strings in Resources */,
+				836641151F415731004527ED /* Flower1.png in Resources */,
 				83820CBD1F03956800423B0A /* BG.png in Resources */,
 				83820CC01F0398D700423B0A /* BG.png in Resources */,
 				83820CC11F0398D700423B0A /* LaunchScreen.jpg in Resources */,
 				83A1D7AD1F0353DA00E62978 /* BG2.png in Resources */,
 				83A1D7AC1F0353DA00E62978 /* BG1.png in Resources */,
 				8304FDDC1EF8DF5F00B48808 /* DearBaby.xcassets in Resources */,
+				836641161F415731004527ED /* Flower2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,11 +668,14 @@
 				8304FDB01EF8DEDA00B48808 /* ChineseToPinyinResource.m in Sources */,
 				8350CD591F01F782001F1085 /* DearBaby.m in Sources */,
 				8304FDCB1EF8DEDA00B48808 /* UIScrollView+subviews.m in Sources */,
+				836641111F4148E3004527ED /* JZMath.m in Sources */,
+				8366411A1F415DFD004527ED /* JZAnimationHelper.m in Sources */,
 				8304FDC31EF8DEDA00B48808 /* JZTimer.m in Sources */,
 				8304FDE21EF8EA1600B48808 /* AppCoredata.m in Sources */,
 				8304FDB91EF8DEDA00B48808 /* JZImageHelper.m in Sources */,
 				8304FDC01EF8DEDA00B48808 /* JZMultiDelegateObject.m in Sources */,
 				8304FDBF1EF8DEDA00B48808 /* JZMulticastDelegate.m in Sources */,
+				8366411D1F416660004527ED /* CEClickEffectView.m in Sources */,
 				8304FD101EF7C90D00B48808 /* main.m in Sources */,
 				8304FDD81EF8DEDA00B48808 /* AppViewsCustomStyleDefine.m in Sources */,
 				8304FDA91EF8DEDA00B48808 /* JZActivityIndicatorMgr.m in Sources */,
@@ -800,7 +830,7 @@
 			baseConfigurationReference = BFC65BB29B853BE91A93EA7C /* Pods-DearBabyObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D8R5M72ZQ;
+				DEVELOPMENT_TEAM = 878PC6YRSJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DearBabyObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -815,7 +845,7 @@
 			baseConfigurationReference = DDB9AE8CC5D8594B2F1D8D64 /* Pods-DearBabyObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D8R5M72ZQ;
+				DEVELOPMENT_TEAM = 878PC6YRSJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DearBabyObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

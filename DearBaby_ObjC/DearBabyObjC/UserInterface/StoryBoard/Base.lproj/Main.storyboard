@@ -37,11 +37,25 @@
                                             <constraint firstAttribute="width" constant="128" id="nOf-Fa-fnh"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG1.png" translatesAutoresizingMaskIntoConstraints="NO" id="BaU-aY-UmW">
-                                        <rect key="frame" x="77" y="447" width="220" height="220"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower1.png" translatesAutoresizingMaskIntoConstraints="NO" id="BaU-aY-UmW">
+                                        <rect key="frame" x="187.5" y="447" width="120" height="220"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="220" id="5oy-V4-nBn"/>
-                                            <constraint firstAttribute="width" constant="220" id="PBm-gs-a0D"/>
+                                            <constraint firstAttribute="width" constant="120" id="PBm-gs-a0D"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jTg-Ry-ktp">
+                                        <rect key="frame" x="87.5" y="497" width="100" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="UO5-dI-VfL"/>
+                                            <constraint firstAttribute="height" constant="170" id="yyc-YW-hHk"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flower3.png" translatesAutoresizingMaskIntoConstraints="NO" id="yac-OD-SgR">
+                                        <rect key="frame" x="137.5" y="597" width="50" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="RZc-Qn-vv8"/>
+                                            <constraint firstAttribute="height" constant="70" id="VwC-Ow-qK2"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dear Baby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW5-vp-NbQ">
@@ -59,18 +73,22 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.81960784313725488" green="0.93333333333333335" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="yac-OD-SgR" firstAttribute="trailing" secondItem="jTg-Ry-ktp" secondAttribute="trailing" id="6ff-Y6-55J"/>
+                                    <constraint firstItem="BaU-aY-UmW" firstAttribute="leading" secondItem="t1G-Kl-FeK" secondAttribute="centerX" id="E3M-pd-Ohq"/>
                                     <constraint firstAttribute="bottom" secondItem="BaU-aY-UmW" secondAttribute="bottom" id="Fk7-v8-zbX"/>
                                     <constraint firstItem="LUQ-rO-3xe" firstAttribute="top" secondItem="t1G-Kl-FeK" secondAttribute="top" id="HaV-7Y-Xi9"/>
                                     <constraint firstItem="LUQ-rO-3xe" firstAttribute="leading" secondItem="t1G-Kl-FeK" secondAttribute="leading" id="IOi-la-zn6"/>
+                                    <constraint firstAttribute="bottom" secondItem="jTg-Ry-ktp" secondAttribute="bottom" id="IiZ-P1-e3L"/>
                                     <constraint firstAttribute="trailing" secondItem="LUQ-rO-3xe" secondAttribute="trailing" id="KyF-KT-EvP"/>
                                     <constraint firstAttribute="bottom" secondItem="1jq-t5-dNm" secondAttribute="bottom" constant="20" id="NY7-7M-kBj"/>
                                     <constraint firstItem="oW5-vp-NbQ" firstAttribute="centerX" secondItem="t1G-Kl-FeK" secondAttribute="centerX" id="Ou9-Gh-5i1"/>
                                     <constraint firstItem="oW5-vp-NbQ" firstAttribute="centerY" secondItem="t1G-Kl-FeK" secondAttribute="centerY" id="WEm-7Z-dY1"/>
                                     <constraint firstItem="Jiv-Tc-FlW" firstAttribute="top" secondItem="t1G-Kl-FeK" secondAttribute="top" constant="20" id="X9E-Bd-KjJ"/>
                                     <constraint firstItem="1jq-t5-dNm" firstAttribute="centerX" secondItem="t1G-Kl-FeK" secondAttribute="centerX" id="Xjc-kW-2KU"/>
+                                    <constraint firstItem="jTg-Ry-ktp" firstAttribute="trailing" secondItem="t1G-Kl-FeK" secondAttribute="centerX" id="a2E-zm-MDE"/>
                                     <constraint firstAttribute="trailing" secondItem="Jiv-Tc-FlW" secondAttribute="trailing" id="b9T-j0-guX"/>
-                                    <constraint firstItem="BaU-aY-UmW" firstAttribute="centerX" secondItem="t1G-Kl-FeK" secondAttribute="centerX" id="rFu-Nq-y42"/>
                                     <constraint firstAttribute="bottom" secondItem="LUQ-rO-3xe" secondAttribute="bottom" id="xZs-1A-1O5"/>
+                                    <constraint firstAttribute="bottom" secondItem="yac-OD-SgR" secondAttribute="bottom" id="yNB-RV-5mN"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zh5-6N-ufR">
@@ -244,14 +262,22 @@
                                     <constraint firstItem="5yS-Hy-eku" firstAttribute="centerY" secondItem="Zh5-6N-ufR" secondAttribute="centerY" constant="-30" id="xvx-T2-yA6"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtg-tX-5qY" userLabel="PlayView" customClass="CEClickEffectView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Zh5-6N-ufR" firstAttribute="top" secondItem="Gu7-nN-6qs" secondAttribute="topMargin" id="72i-p5-m3U"/>
                             <constraint firstItem="Zh5-6N-ufR" firstAttribute="bottom" secondItem="Gu7-nN-6qs" secondAttribute="bottomMargin" id="AzS-a5-kJu"/>
+                            <constraint firstItem="Jtg-tX-5qY" firstAttribute="top" secondItem="Gu7-nN-6qs" secondAttribute="topMargin" id="IbB-rt-k5w"/>
                             <constraint firstAttribute="bottom" secondItem="t1G-Kl-FeK" secondAttribute="bottom" id="MjV-dp-blL"/>
                             <constraint firstItem="t1G-Kl-FeK" firstAttribute="top" secondItem="Gu7-nN-6qs" secondAttribute="top" id="MvC-A4-Drw"/>
+                            <constraint firstAttribute="trailing" secondItem="Jtg-tX-5qY" secondAttribute="trailing" id="TDZ-vU-3RG"/>
                             <constraint firstAttribute="trailing" secondItem="t1G-Kl-FeK" secondAttribute="trailing" id="UzE-sO-S8w"/>
+                            <constraint firstItem="Jtg-tX-5qY" firstAttribute="leading" secondItem="Gu7-nN-6qs" secondAttribute="leading" id="izF-Qj-1Fw"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Jtg-tX-5qY" secondAttribute="bottom" id="lhU-fr-rVX"/>
                             <constraint firstAttribute="trailing" secondItem="Zh5-6N-ufR" secondAttribute="trailing" id="n8j-zb-EsI"/>
                             <constraint firstItem="Zh5-6N-ufR" firstAttribute="leading" secondItem="Gu7-nN-6qs" secondAttribute="leading" id="ukP-Uv-bmz"/>
                             <constraint firstItem="t1G-Kl-FeK" firstAttribute="leading" secondItem="Gu7-nN-6qs" secondAttribute="leading" id="yLL-MK-2e0"/>
@@ -264,6 +290,10 @@
                         <outlet property="BGView" destination="t1G-Kl-FeK" id="b3R-HR-FFR"/>
                         <outlet property="BabyNameLabel" destination="xAX-Lr-CGy" id="wgg-7B-S9y"/>
                         <outlet property="BirthdayStringLabel" destination="mSC-Rm-Ftd" id="SNq-zb-8I2"/>
+                        <outlet property="Flower2Image" destination="jTg-Ry-ktp" id="ukE-ZS-37Z"/>
+                        <outlet property="Flower2ImageHeightConstraint" destination="yyc-YW-hHk" id="m7K-lS-T72"/>
+                        <outlet property="Flower3Image" destination="yac-OD-SgR" id="BmF-Pq-Ei4"/>
+                        <outlet property="Flower3ImageHeightConstraint" destination="VwC-Ow-qK2" id="q8S-LE-eft"/>
                         <outlet property="FlowerImage" destination="BaU-aY-UmW" id="Wgv-cI-xiP"/>
                         <outlet property="FlowerImageHeightConstraint" destination="5oy-V4-nBn" id="yua-Ny-VR6"/>
                         <outlet property="InformationTextView" destination="Zh5-6N-ufR" id="9Mq-f7-Lyx"/>
@@ -303,7 +333,9 @@
     </scenes>
     <resources>
         <image name="BG.png" width="1080" height="1920"/>
-        <image name="BG1.png" width="717" height="725"/>
         <image name="BG2.png" width="372" height="380"/>
+        <image name="Flower1.png" width="416" height="725"/>
+        <image name="Flower2.png" width="348" height="570"/>
+        <image name="Flower3.png" width="181" height="287"/>
     </resources>
 </document>
